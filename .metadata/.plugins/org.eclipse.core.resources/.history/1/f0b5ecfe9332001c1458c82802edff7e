@@ -1,0 +1,14 @@
+package com.techlab.abstraction;
+
+public class samsung extends phone{
+	
+	public void call()
+	{
+		System.out.println("samsung available for calling");
+	}
+	@Override
+	public void camera() {
+		System.out.println("samsung available for camera");
+	}
+
+}
